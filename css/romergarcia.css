@@ -519,6 +519,9 @@ height: 100%;
 .intro2 {
 	z-index:99999;
 	position: relative;
+	margin-top: -100px;
+	background-color: rgba(0,0,0,.7);
+	padding: 35px;
 }
 
 /* FAKE 3D Effect */
