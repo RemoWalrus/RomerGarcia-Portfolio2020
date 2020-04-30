@@ -109,6 +109,7 @@ header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
 }
+
 .navbar-brand {
 	text-transform:none;
 	font-weight:400;
@@ -144,7 +145,7 @@ header .intro-text .skills {
 @media(min-width:768px) {
     header .container {
         padding-top: 100px;
-        padding-bottom: 100px;
+        padding-bottom: 60px;
     }
 
     header .intro-text .name {
@@ -156,6 +157,9 @@ header .intro-text .skills {
     header .intro-text .skills {
         font-size: 1.55em;
     }
+	.Threedeffect {
+		margin: 100px auto;
+	} 
 }
 
 @media(min-width:768px) {
@@ -512,6 +516,11 @@ height: 100%;
 	padding-bottom: 100%;
 }
 
+.intro2 {
+	z-index:99999;
+	position: relative;
+}
+
 /* FAKE 3D Effect */
 
 
@@ -641,15 +650,14 @@ a:focus {
 }
 
 .frame__content {
-	line-height: 0.8;
+	line-height: 1.2;
 	pointer-events: none;
-	margin-top: 13vh;
+	margin-top: 25vh;
 	font-size: 40vw;
-	font-family: essonnes-display, serif;
-	mix-blend-mode: soft-light;
+	mix-blend-mode: screen;
 	font-weight: normal;
 	text-align: center;
-	color: #c2ba8b;
+	
 }
 
 
@@ -708,7 +716,7 @@ a:focus {
 	}
 	.frame__content {
 		grid-area: content;
-		margin: 0;
+		margin: 20vh auto;
 	}
 	.frame a {
 		pointer-events: auto;
