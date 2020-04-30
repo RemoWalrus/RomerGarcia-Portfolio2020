@@ -5,20 +5,6 @@
 }
 
 
-
-.demo-2 {
-	font-family: Futura, "futura-pt", Arial, sans-serif;
-}
-
-.demo-2,
-.demo-3 {
-    --color-link: #fbc966;
-}
-
-.demo-4 {
-    --color-link: #52e093;
-}
-
 #gl {
 	width: 100vw;
 	height: 100vh;
@@ -150,24 +136,7 @@ a:focus {
 	color: #c2ba8b;
 }
 
-.demo-2 .frame__content {
-	font-size: 9vw;
-	text-transform: uppercase;
-	font-weight: bold;
-	mix-blend-mode: soft-light;
-	text-align: left;
-	color: #fff;
-	font-family: Futura, "futura-pt", Arial, sans-serif;
-}
 
-.demo-3 .frame__content {
-	color: #24211d;
-}
-
-.demo-4 .frame__content {
-	color: #75c298;
-	mix-blend-mode: overlay;
-}
 
 @media screen and (min-width: 53em) {
 	.message {
