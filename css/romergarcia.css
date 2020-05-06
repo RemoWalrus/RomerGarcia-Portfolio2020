@@ -85,10 +85,13 @@ header {
 	text-align: center;
 	color: #ccc;
 	background: #1C161D;
+	position: relative;
+	height: 80vh;
+	overflow: hidden;
 }
 
 header .container {
-    padding-top: 100px;
+    padding-top: 0;
     padding-bottom: 50px;
 }
 
@@ -118,7 +121,7 @@ header .intro-text .skills {
 		font-weight:100;
 	}
 .navbar-default {
-	background-color:#000000
+	background-color:rgba(0,0,0,.88);
 	}	
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
 	color:#999;
@@ -144,8 +147,7 @@ header .intro-text .skills {
 				}
 @media(min-width:768px) {
     header .container {
-        padding-top: 100px;
-        padding-bottom: 60px;
+        padding:0 auto 60px;
     }
 
     header .intro-text .name {
@@ -164,7 +166,7 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: 25px 0;
+        padding: 20px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -227,7 +229,15 @@ section.success {
 }
 
 @media(max-width:767px) {
-    section {
+    
+	
+	.intro2 {
+		padding: 2vh 0 ;
+		bottom: 0;
+		width: 100vw;
+	}
+	
+	section {
         padding: 75px 0;
     }
 
@@ -517,11 +527,13 @@ height: 100%;
 }
 
 .intro2 {
-	z-index:99999;
-	position: relative;
-	margin-top: -100px;
+	margin-top: 0;
 	background-color: rgba(0,0,0,.7);
-	padding: 35px;
+	z-index: 99999;
+	position: absolute;
+	padding: 5vh 0 ;
+	bottom: 0;
+	width: 100vw;
 }
 
 /* FAKE 3D Effect */
