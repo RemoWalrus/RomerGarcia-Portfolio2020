@@ -534,6 +534,7 @@ height: 100%;
 	padding: 5vh 0 ;
 	bottom: 0;
 	width: 100vw;
+	z-index: 0;
 }
 
 /* FAKE 3D Effect */
