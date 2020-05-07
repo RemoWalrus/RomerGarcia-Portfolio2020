@@ -6,4 +6,4 @@ Portfolio to show my Design work, the header has a fake 3D image with mouse curs
 
 Based on the **Freelancer Bootstrap Theme**
 
-Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-freelancer/blob/gh-pages/LICENSE) license.
+Copyright 2013-2020 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-freelancer/blob/gh-pages/LICENSE) license.
